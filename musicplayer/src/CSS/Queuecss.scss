@@ -1,0 +1,32 @@
+.ssa {
+  float: right;
+  width: 135%;
+  background: desaturate($color: #000000, $amount: 0);
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.ssa > h2{
+    padding-left: 27px;
+    padding-right:27px ;
+}
+
+    .glow {
+        font-size: 25px;
+        color:purple;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+        cursor: pointer
+      }
+
+      .normal{
+        cursor :pointer
+      }
+      .normal:-moz-drag-over{
+        font-size: 3vh;
+      }
+      .normal:hover{
+        font-size: 3vh;
+      }

@@ -1,0 +1,55 @@
+ .play {
+  width: 45px;
+  height: 34px;
+  cursor: pointer;
+} 
+.play:hover{
+  color: white;
+  width: 48px;
+  height: 37px;
+}
+.playall{
+  width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 73px;
+    cursor: pointer;
+}
+
+.modal-header{
+  background-color: purple!important;
+
+}
+.modal-body{
+  color: purple!important;
+  background-color: desaturate($color: #000000, $amount: 15);
+}
+.modal-footer{
+  padding: 0.2rem;
+}
+
+.btn-secondary{
+  color:black;
+  background-color: white;
+}
+
+.btn-secondary::hover{
+  background-color: red!important;
+}
+
+// .play {
+//   box-sizing: border-box;
+//   border-width: 12px 0px 9px 16px;
+//   border-color: transparent transparent transparent #202020;
+//   cursor: pointer;
+// }
+
+
+// .pause {
+//   height: 22px;
+//   border-style: double;
+//   border-width: 0px 0px 0px 14px;
+//   border-color: #202020;
+// }
+
+

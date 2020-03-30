@@ -1,0 +1,49 @@
+.none {
+  display: none;
+}
+.head {
+  color: white;
+}
+
+.addSpan {
+  cursor: grabbing;
+  background-color: darkgoldenrod;
+  color: whitesmoke;
+  height: 24px;
+  width: 17px;
+  text-align: -webkit-center;
+  font-weight: 1000;
+  border-radius: 18%;
+  cursor: "grabbing";
+}
+
+.textSpan {
+  margin-right: 21px;
+  font-family: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: purple;
+}
+
+body {
+  background: black;
+}
+.playalbum {
+  width: 25px;
+  height: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.Show {
+  width: 57px;
+  height: 57px;
+  color: purple;
+  position: relative;
+  cursor: pointer;
+  margin-right: 9vh;
+}
+.Show:hover {
+  color: white;
+  width: 60px;
+  height: 60px;
+}
